@@ -70,7 +70,7 @@ body {
   }
   
   #banner h3 {
-    background: black;
+    background: red;
     border-radius: 8px;
     padding: 0 24px;
     font-size: 24px;
@@ -96,7 +96,7 @@ body {
   /* Navigation */
   
   nav {
-    height: 55px;
+    height: 60px;
     background: black;
     width: 100%;
     margin: 0;
@@ -137,7 +137,7 @@ body {
   #logo-img {
     display: flex;
     height: 100%;
-    background: grey;
+    background: black;
     padding: 0 32px;
     align-items: center;
     color: white;
@@ -149,7 +149,7 @@ body {
   }
   
   #logo-img:hover {
-    background:red;
+    background:whitesmoke;
   }
   
   #menu-icon {
@@ -338,7 +338,8 @@ body {
   
   footer #social-media-footer a .fa-instagram,
   footer #social-media-footer a .fa-facebook,
-  footer #social-media-footer a .fa-linkedin {
+  footer #social-media-footer a .fa-linkedin,
+  footer #social-media-footer a .fa-discord {
     color: white;
     transition: 0.4s;
   }
@@ -366,6 +367,10 @@ body {
   
   footer #social-media-footer ul li:hover a .fa-linkedin {
     color: darkblue;
+  }
+
+  footer #social-media-footer ul li:hover a .fa-discord {
+    color: #3b5998;
   }
   
   /* Blog List page */
